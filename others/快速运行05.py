@@ -33,7 +33,7 @@ executor = load_agent_executor(model, tools, verbose=True)
 
 agent = PlanAndExecute(planner=planner, executor=executor, verbose=True)
 
-response = agent.run("Who is Leo DiCaprio's girlfriend? What is her current age raised to the 0.43 power?")
+response = agent.run("唐德影视发生风险会对哪些企业产生影响")
 
 
 print("response:" + response)
